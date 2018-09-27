@@ -1,2 +1,14 @@
-﻿     Creating library C:\Users\Oliver\Code\repos\Personal\OliverVisionTest\x64\Debug\OliverVisionTest.lib and object C:\Users\Oliver\Code\repos\Personal\OliverVisionTest\x64\Debug\OliverVisionTest.exp
+﻿  OliverVisionTest.cpp
+c:\users\oliver\code\repos\personal\olivervision\olivervision\olivervision.h(29): warning C4091: '__declspec(dllexport)': ignored on left of 'ov::eInterpolationType' when no variable is declared
+c:\users\oliver\code\repos\personal\olivervision\olivervision\olivervision.h(39): warning C4091: '__declspec(dllexport)': ignored on left of 'ov::eInitialClusterPosition' when no variable is declared
+c:\users\oliver\code\repos\personal\olivervision\olivervision\olivervision.h(42): warning C4251: 'ov::Mass<double>::point': class 'std::vector<double,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of struct 'ov::Mass<double>'
+          with
+          [
+              _Ty=double
+          ]
+  c:\users\oliver\code\repos\personal\olivervision\olivervision\olivervision.h(15): note: see declaration of 'std::vector<double,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=double
+          ]
   OliverVisionTest.vcxproj -> C:\Users\Oliver\Code\repos\Personal\OliverVisionTest\x64\Debug\OliverVisionTest.exe
