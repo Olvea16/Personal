@@ -1,0 +1,10 @@
+﻿AudioTest1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Sound::Sound(void)" (__imp_??0Sound@sf@@QEAA@XZ) referenced in function main
+AudioTest1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::Sound::~Sound(void)" (__imp_??1Sound@sf@@UEAA@XZ) referenced in function main
+AudioTest1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Sound::play(void)" (__imp_?play@Sound@sf@@QEAAXXZ) referenced in function main
+AudioTest1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Sound::setBuffer(class sf::SoundBuffer const &)" (__imp_?setBuffer@Sound@sf@@QEAAXAEBVSoundBuffer@2@@Z) referenced in function main
+AudioTest1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::SoundBuffer::SoundBuffer(void)" (__imp_??0SoundBuffer@sf@@QEAA@XZ) referenced in function main
+AudioTest1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::SoundBuffer::~SoundBuffer(void)" (__imp_??1SoundBuffer@sf@@QEAA@XZ) referenced in function main
+AudioTest1.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __cdecl sf::SoundBuffer::loadFromSamples(short const *,unsigned __int64,unsigned int,unsigned int)" (__imp_?loadFromSamples@SoundBuffer@sf@@QEAA_NPEBF_KII@Z) referenced in function main
+lib/sfml-system.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+lib/sfml-audio.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Oliver\source\repos\AudioTest1\x64\Debug\AudioTest1.exe : fatal error LNK1120: 7 unresolved externals

@@ -1,0 +1,7 @@
+﻿  Source.cpp
+c:\users\oliver\source\repos\sfml\sfml\source.cpp(39): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+c:\users\oliver\source\repos\sfml\sfml\source.cpp(40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\oliver\source\repos\sfml\sfml\source.cpp(59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\oliver\source\repos\sfml\sfml\source.cpp(59): warning C4390: ';': empty controlled statement found; is this the intent?
+  SFML.vcxproj -> C:\Users\Oliver\source\repos\SFML\Debug\SFML.exe
+  SFML.vcxproj -> C:\Users\Oliver\source\repos\SFML\Debug\SFML.pdb (Partial PDB)

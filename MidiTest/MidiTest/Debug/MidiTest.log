@@ -1,0 +1,3 @@
+﻿  MidiTest.cpp
+c:\users\oliver\source\repos\miditest\miditest\miditest.cpp(62): warning C4018: '<': signed/unsigned mismatch
+  MidiTest.vcxproj -> c:\Users\Oliver\source\repos\MidiTest\Debug\MidiTest.exe

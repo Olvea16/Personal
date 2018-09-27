@@ -1,0 +1,5 @@
+﻿  OpenCV_Test_1.cpp
+c:\users\oliver\source\repos\opencv_test_1\opencv_test_1\opencv_test_1.cpp(91): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+c:\users\oliver\source\repos\opencv_test_1\opencv_test_1\opencv_test_1.cpp(100): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\oliver\source\repos\opencv_test_1\opencv_test_1\opencv_test_1.cpp(152): warning C4244: '*=': conversion from 'double' to 'uchar', possible loss of data
+  OpenCV_Test_1.vcxproj -> C:\Users\Oliver\source\repos\OpenCV_Test_1\x64\Debug\OpenCV_Test_1.exe

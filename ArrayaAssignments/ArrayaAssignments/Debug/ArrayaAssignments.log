@@ -1,0 +1,6 @@
+﻿  ArrayaAssignments.cpp
+c:\users\oliver\source\repos\arrayaassignments\arrayaassignments\arrayaassignments.cpp(9): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Array.cpp
+  Generating Code...
+  ArrayaAssignments.vcxproj -> C:\Users\Oliver\source\repos\ArrayaAssignments\Debug\ArrayaAssignments.exe
+  ArrayaAssignments.vcxproj -> C:\Users\Oliver\source\repos\ArrayaAssignments\Debug\ArrayaAssignments.pdb (Partial PDB)

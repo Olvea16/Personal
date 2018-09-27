@@ -1,0 +1,10 @@
+C:\Users\Oliver\source\repos\DragAndDropListing\DragAndDropListing\bin\Debug\DragAndDropListing.exe.config
+C:\Users\Oliver\source\repos\DragAndDropListing\DragAndDropListing\bin\Debug\DragAndDropListing.exe
+C:\Users\Oliver\source\repos\DragAndDropListing\DragAndDropListing\bin\Debug\DragAndDropListing.pdb
+C:\Users\Oliver\source\repos\DragAndDropListing\DragAndDropListing\obj\Debug\DragAndDropListing.csprojResolveAssemblyReference.cache
+C:\Users\Oliver\source\repos\DragAndDropListing\DragAndDropListing\obj\Debug\DragAndDropListing.Form1.resources
+C:\Users\Oliver\source\repos\DragAndDropListing\DragAndDropListing\obj\Debug\DragAndDropListing.Properties.Resources.resources
+C:\Users\Oliver\source\repos\DragAndDropListing\DragAndDropListing\obj\Debug\DragAndDropListing.csproj.GenerateResource.Cache
+C:\Users\Oliver\source\repos\DragAndDropListing\DragAndDropListing\obj\Debug\DragAndDropListing.csproj.CoreCompileInputs.cache
+C:\Users\Oliver\source\repos\DragAndDropListing\DragAndDropListing\obj\Debug\DragAndDropListing.exe
+C:\Users\Oliver\source\repos\DragAndDropListing\DragAndDropListing\obj\Debug\DragAndDropListing.pdb

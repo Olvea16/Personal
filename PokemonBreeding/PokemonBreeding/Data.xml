@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<pokemon>
+  <ditto>
+    <abilities>1</abilities>
+    <hiddenAbility>Imposter</hiddenAbility>
+    <parents>
+    </parents>
+  </ditto>
+  <groudon>
+    <parents>
+      
+    </parents>
+  </groudon>
+</pokemon>

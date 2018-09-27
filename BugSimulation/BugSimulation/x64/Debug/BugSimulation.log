@@ -1,0 +1,3 @@
+﻿  BugSimulation.cpp
+c:\users\oliver\source\repos\bugsimulation\bugsimulation\direction.h(16): warning C4091: 'static ': ignored on left of 'Direction' when no variable is declared
+  BugSimulation.vcxproj -> C:\Users\Oliver\source\repos\BugSimulation\x64\Debug\BugSimulation.exe

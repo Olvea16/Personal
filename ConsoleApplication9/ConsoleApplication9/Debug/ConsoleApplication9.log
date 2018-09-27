@@ -1,0 +1,6 @@
+﻿  ConsoleApplication9.cpp
+c:\users\oliver\source\repos\consoleapplication9\consoleapplication9\consoleapplication9.cpp(19): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\oliver\source\repos\consoleapplication9\consoleapplication9\consoleapplication9.cpp(25): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\oliver\source\repos\consoleapplication9\consoleapplication9\consoleapplication9.cpp(37): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  ConsoleApplication9.vcxproj -> c:\users\oliver\source\repos\ConsoleApplication9\Debug\ConsoleApplication9.exe
+  ConsoleApplication9.vcxproj -> c:\users\oliver\source\repos\ConsoleApplication9\Debug\ConsoleApplication9.pdb (Partial PDB)

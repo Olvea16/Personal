@@ -1,0 +1,3 @@
+﻿OliverVisionTest.obj : error LNK2019: unresolved external symbol "class std::vector<double,class std::allocator<double> > __cdecl ov::applyFilter(class std::vector<double,class std::allocator<double> >,class std::vector<double,class std::allocator<double> >,bool)" (?applyFilter@ov@@YA?AV?$vector@NV?$allocator@N@std@@@std@@V23@0_N@Z) referenced in function _main
+OliverVisionTest.obj : error LNK2019: unresolved external symbol "class std::vector<double,class std::allocator<double> > __cdecl ov::getGaussianFilter(unsigned int)" (?getGaussianFilter@ov@@YA?AV?$vector@NV?$allocator@N@std@@@std@@I@Z) referenced in function _main
+C:\Users\Oliver\source\repos\OliverVisionTest\Debug\OliverVisionTest.exe : fatal error LNK1120: 2 unresolved externals

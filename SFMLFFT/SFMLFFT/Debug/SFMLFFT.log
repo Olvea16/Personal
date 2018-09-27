@@ -1,0 +1,14 @@
+﻿  Source.cpp
+c:\users\oliver\source\repos\sfmlfft\sfmlfft\source.cpp(22): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\oliver\source\repos\sfmlfft\sfmlfft\source.cpp(24): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\oliver\source\repos\sfmlfft\sfmlfft\source.cpp(27): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\oliver\source\repos\sfmlfft\sfmlfft\source.cpp(45): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\oliver\source\repos\sfmlfft\sfmlfft\source.cpp(52): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\oliver\source\repos\sfmlfft\sfmlfft\source.cpp(65): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+c:\users\oliver\source\repos\sfmlfft\sfmlfft\source.cpp(85): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\oliver\source\repos\sfmlfft\sfmlfft\source.cpp(86): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\oliver\source\repos\sfmlfft\sfmlfft\source.cpp(121): warning C4244: 'argument': conversion from 'double' to 'sf::Int16', possible loss of data
+c:\users\oliver\source\repos\sfmlfft\sfmlfft\source.cpp(132): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\oliver\source\repos\sfmlfft\sfmlfft\source.cpp(132): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+  SFMLFFT.vcxproj -> C:\Users\Oliver\source\repos\SFMLFFT\Debug\SFMLFFT.exe
+  SFMLFFT.vcxproj -> C:\Users\Oliver\source\repos\SFMLFFT\Debug\SFMLFFT.pdb (Partial PDB)

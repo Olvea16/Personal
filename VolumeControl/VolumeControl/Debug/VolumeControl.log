@@ -1,0 +1,6 @@
+﻿  ProcessData.cpp
+c:\users\oliver\source\repos\volumecontrol\volumecontrol\processdata.cpp(76): warning C4018: '<': signed/unsigned mismatch
+c:\users\oliver\source\repos\volumecontrol\volumecontrol\processdata.cpp(54): warning C4101: 'session_control': unreferenced local variable
+c:\users\oliver\source\repos\volumecontrol\volumecontrol\processdata.cpp(120): warning C4018: '<': signed/unsigned mismatch
+c:\users\oliver\source\repos\volumecontrol\volumecontrol\processdata.cpp(145): warning C4715: 'ProcessData::get_process_name': not all control paths return a value
+  VolumeControl.vcxproj -> C:\Users\Oliver\source\repos\VolumeControl\Debug\VolumeControl.exe

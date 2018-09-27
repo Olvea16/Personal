@@ -1,0 +1,4 @@
+﻿  ConsoleApplication1.cpp
+c:\users\oliver\source\repos\consoleapplication1\consoleapplication1\consoleapplication1.cpp(17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\oliver\source\repos\consoleapplication1\consoleapplication1\consoleapplication1.cpp(26): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  ConsoleApplication1.vcxproj -> C:\Users\Oliver\source\repos\ConsoleApplication1\Debug\ConsoleApplication1.exe

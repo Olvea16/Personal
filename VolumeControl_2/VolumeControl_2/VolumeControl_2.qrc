@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/VolumeControl_2">
+    <file alias="qApp">VolumeControl_2.qrc</file>
+  </qresource>
+  <qresource prefix="Image">
+    <file>volcano.png</file>
+  </qresource>
+</RCC>

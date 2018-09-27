@@ -1,0 +1,13 @@
+﻿  Daycare.cpp
+c:\users\oliver\source\repos\pokemonbreeding\pokemonbreeding\daycare.cpp(28): warning C4018: '<': signed/unsigned mismatch
+c:\users\oliver\source\repos\pokemonbreeding\pokemonbreeding\daycare.cpp(188): warning C4018: '<': signed/unsigned mismatch
+c:\users\oliver\source\repos\pokemonbreeding\pokemonbreeding\daycare.cpp(193): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\oliver\source\repos\pokemonbreeding\pokemonbreeding\daycare.cpp(211): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\oliver\source\repos\pokemonbreeding\pokemonbreeding\daycare.cpp(232): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\oliver\source\repos\pokemonbreeding\pokemonbreeding\daycare.cpp(265): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\oliver\source\repos\pokemonbreeding\pokemonbreeding\daycare.cpp(266): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Parent.cpp
+  Source.cpp
+  Target.cpp
+  Generating Code...
+  PokemonBreeding.vcxproj -> C:\Users\Oliver\source\repos\PokemonBreeding\Debug\PokemonBreeding.exe

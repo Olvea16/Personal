@@ -1,0 +1,5 @@
+﻿  ConsoleApplication10.cpp
+c:\users\oliver\source\repos\consoleapplication10\consoleapplication10\consoleapplication10.cpp(15): warning C4018: '<': signed/unsigned mismatch
+c:\users\oliver\source\repos\consoleapplication10\consoleapplication10\consoleapplication10.cpp(44): warning C4018: '<': signed/unsigned mismatch
+  ConsoleApplication10.vcxproj -> C:\Users\Oliver\source\repos\ConsoleApplication10\Debug\ConsoleApplication10.exe
+  ConsoleApplication10.vcxproj -> C:\Users\Oliver\source\repos\ConsoleApplication10\Debug\ConsoleApplication10.pdb (Partial PDB)

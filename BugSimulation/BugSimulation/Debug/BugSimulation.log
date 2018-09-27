@@ -1,0 +1,22 @@
+﻿  Bug.cpp
+c:\users\oliver\source\repos\bugsimulation\bugsimulation\bug.cpp(65): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\oliver\source\repos\bugsimulation\bugsimulation\bug.cpp(76): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Bug1.cpp
+c:\users\oliver\source\repos\bugsimulation\bugsimulation\bug1.cpp(59): warning C4060: switch statement contains no 'case' or 'default' labels
+c:\users\oliver\source\repos\bugsimulation\bugsimulation\bug1.cpp(18): warning C4102: 'eHeadingForGoal': unreferenced label
+c:\users\oliver\source\repos\bugsimulation\bugsimulation\bug1.cpp(31): warning C4102: 'eScoutingObstacle': unreferenced label
+c:\users\oliver\source\repos\bugsimulation\bugsimulation\bug1.cpp(45): warning C4102: 'eBacktracking': unreferenced label
+c:\users\oliver\source\repos\bugsimulation\bugsimulation\bug1.cpp(56): warning C4102: 'eDone': unreferenced label
+  BugSimulation.cpp
+  Image.cpp
+  Map.cpp
+  Simulation.cpp
+  Generating Code...
+Map.obj : error LNK2001: unresolved external symbol "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ)
+Simulation.obj : error LNK2001: unresolved external symbol "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ)
+Bug.obj : error LNK2001: unresolved external symbol "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ)
+Bug1.obj : error LNK2001: unresolved external symbol "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ)
+BugSimulation.obj : error LNK2001: unresolved external symbol "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ)
+Image.obj : error LNK2001: unresolved external symbol "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ)
+E:\OpenCV\opencv\build\x64\vc15\lib\opencv_world343d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+c:\users\oliver\source\repos\BugSimulation\Debug\BugSimulation.exe : fatal error LNK1120: 1 unresolved externals

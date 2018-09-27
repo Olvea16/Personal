@@ -1,0 +1,4 @@
+﻿  CircularBuffer.cpp
+c:\users\oliver\source\repos\circularbuffer\circularbuffer\circularbuffer.cpp(14): warning C4018: '<': signed/unsigned mismatch
+c:\users\oliver\source\repos\circularbuffer\circularbuffer\circularbuffer.cpp(18): warning C4018: '<': signed/unsigned mismatch
+  CircularBuffer.vcxproj -> C:\Users\Oliver\source\repos\CircularBuffer\Debug\CircularBuffer.exe
