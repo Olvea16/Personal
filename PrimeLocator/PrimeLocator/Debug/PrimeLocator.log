@@ -1,4 +1,2 @@
-﻿  PrimeLocator.cpp
-c:\users\oliver\source\repos\primelocator\primelocator\primelocator.cpp(13): warning C4018: '<': signed/unsigned mismatch
-c:\users\oliver\source\repos\primelocator\primelocator\primelocator.cpp(41): warning C4244: 'argument': conversion from 'double' to 'unsigned __int64', possible loss of data
-  PrimeLocator.vcxproj -> C:\Users\Oliver\source\repos\PrimeLocator\Debug\PrimeLocator.exe
+﻿  stdafx.cpp
+  PrimeLocator.cpp
