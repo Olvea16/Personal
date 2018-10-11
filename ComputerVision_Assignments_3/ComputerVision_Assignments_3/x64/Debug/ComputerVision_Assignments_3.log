@@ -1,0 +1,15 @@
+﻿  ComputerVision_Assignments_3.cpp
+c:\users\oliver\source\repos\computervision_assignments_3\computervision_assignments_3\computervision_assignments_3.cpp(110): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\oliver\source\repos\computervision_assignments_3\computervision_assignments_3\computervision_assignments_3.cpp(128): error C2440: 'initializing': cannot convert from 'volatile double [10]' to 'double *'
+  c:\users\oliver\source\repos\computervision_assignments_3\computervision_assignments_3\computervision_assignments_3.cpp(128): note: Conversion loses qualifiers
+c:\users\oliver\source\repos\computervision_assignments_3\computervision_assignments_3\computervision_assignments_3.cpp(150): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\oliver\source\repos\computervision_assignments_3\computervision_assignments_3\computervision_assignments_3.cpp(178): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\oliver\source\repos\computervision_assignments_3\computervision_assignments_3\computervision_assignments_3.cpp(179): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\oliver\source\repos\computervision_assignments_3\computervision_assignments_3\computervision_assignments_3.cpp(187): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\oliver\source\repos\computervision_assignments_3\computervision_assignments_3\computervision_assignments_3.cpp(192): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\oliver\source\repos\computervision_assignments_3\computervision_assignments_3\computervision_assignments_3.cpp(195): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\oliver\source\repos\computervision_assignments_3\computervision_assignments_3\computervision_assignments_3.cpp(206): warning C4244: 'initializing': conversion from 'double' to '::size_t', possible loss of data
+c:\users\oliver\source\repos\computervision_assignments_3\computervision_assignments_3\computervision_assignments_3.cpp(218): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\oliver\source\repos\computervision_assignments_3\computervision_assignments_3\computervision_assignments_3.cpp(232): warning C4244: 'initializing': conversion from 'double' to '::size_t', possible loss of data
+c:\users\oliver\source\repos\computervision_assignments_3\computervision_assignments_3\computervision_assignments_3.cpp(250): warning C4244: '=': conversion from 'double' to 'uchar', possible loss of data
+c:\users\oliver\source\repos\computervision_assignments_3\computervision_assignments_3\computervision_assignments_3.cpp(256): warning C4244: 'initializing': conversion from 'const double' to '::size_t', possible loss of data
