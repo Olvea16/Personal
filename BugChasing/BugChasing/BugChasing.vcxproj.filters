@@ -48,6 +48,9 @@
     <ClInclude Include="Bug2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="StarBug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -81,6 +84,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Bug2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StarBug.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

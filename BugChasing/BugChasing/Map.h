@@ -5,8 +5,6 @@
 #include "Position.h"
 #include "Image.h"
 
-
-
 class Map
 {
 public:

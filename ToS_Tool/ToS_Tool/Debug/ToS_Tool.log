@@ -1,0 +1,6 @@
+﻿  Player.cpp
+  Role.cpp
+  Town.cpp
+  Generating Code...
+ToS_Tool.obj : error LNK2019: unresolved external symbol "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ) referenced in function "public: __thiscall cv::String::~String(void)" (??1String@cv@@QAE@XZ)
+C:\Users\Oliver\Code\repos\Personal\ToS_Tool\Debug\ToS_Tool.exe : fatal error LNK1120: 1 unresolved externals

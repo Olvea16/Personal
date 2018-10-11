@@ -1,0 +1,106 @@
+﻿  Windows_Direct2D_Test_1.cpp
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(33): error C2146: syntax error: missing ';' before identifier 'GraphicsState'
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(533): error C7525: inline variables require at least '/std:c++17'
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(534): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(534): error C2146: syntax error: missing ';' before identifier 'ObjectTypeIsValid'
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(537): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(560): error C2065: 'META_SETBKCOLOR': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(560): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(561): error C2065: 'META_SETBKMODE': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(561): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(562): error C2065: 'META_SETMAPMODE': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(562): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(563): error C2065: 'META_SETROP2': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(563): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(564): error C2065: 'META_SETRELABS': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(564): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(565): error C2065: 'META_SETPOLYFILLMODE': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(565): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(566): error C2065: 'META_SETSTRETCHBLTMODE': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(566): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(567): error C2065: 'META_SETTEXTCHAREXTRA': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(567): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(568): error C2065: 'META_SETTEXTCOLOR': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(568): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(569): error C2065: 'META_SETTEXTJUSTIFICATION': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(569): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(570): error C2065: 'META_SETWINDOWORG': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(570): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(571): error C2065: 'META_SETWINDOWEXT': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(571): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(572): error C2065: 'META_SETVIEWPORTORG': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(572): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(573): error C2065: 'META_SETVIEWPORTEXT': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(573): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(574): error C2065: 'META_OFFSETWINDOWORG': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(574): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(575): error C2065: 'META_SCALEWINDOWEXT': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(575): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(576): error C2065: 'META_OFFSETVIEWPORTORG': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(576): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(577): error C2065: 'META_SCALEVIEWPORTEXT': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(577): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(578): error C2065: 'META_LINETO': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(578): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(579): error C2065: 'META_MOVETO': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(579): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(580): error C2065: 'META_EXCLUDECLIPRECT': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(580): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(581): error C2065: 'META_INTERSECTCLIPRECT': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(581): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(582): error C2065: 'META_ARC': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(582): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(583): error C2065: 'META_ELLIPSE': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(583): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(584): error C2065: 'META_FLOODFILL': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(584): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(585): error C2065: 'META_PIE': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(585): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(586): error C2065: 'META_RECTANGLE': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(586): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(587): error C2065: 'META_ROUNDRECT': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(587): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(588): error C2065: 'META_PATBLT': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(588): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(589): error C2065: 'META_SAVEDC': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(589): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(590): error C2065: 'META_SETPIXEL': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(590): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(591): error C2065: 'META_OFFSETCLIPRGN': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(591): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(592): error C2065: 'META_TEXTOUT': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(592): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(593): error C2065: 'META_BITBLT': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(593): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(594): error C2065: 'META_STRETCHBLT': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(594): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(595): error C2065: 'META_POLYGON': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(595): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(596): error C2065: 'META_POLYLINE': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(596): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(597): error C2065: 'META_ESCAPE': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(597): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(598): error C2065: 'META_RESTOREDC': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(598): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(599): error C2065: 'META_FILLREGION': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(599): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(600): error C2065: 'META_FRAMEREGION': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(600): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(601): error C2065: 'META_INVERTREGION': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(601): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(602): error C2065: 'META_PAINTREGION': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(602): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(603): error C2065: 'META_SELECTCLIPREGION': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(603): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(604): error C2065: 'META_SELECTOBJECT': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(604): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(605): error C2065: 'META_SETTEXTALIGN': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(605): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(607): error C2065: 'META_CHORD': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(607): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(608): error C2065: 'META_SETMAPPERFLAGS': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(608): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(609): error C2065: 'META_EXTTEXTOUT': undeclared identifier
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(609): error C2056: illegal expression
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\gdiplusenums.h(609): fatal error C1003: error count exceeds 100; stopping compilation

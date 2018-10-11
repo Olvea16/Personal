@@ -1,0 +1,4 @@
+﻿  BinarySearchTree.cpp
+c:\users\oliver\code\repos\personal\ada_portfolioassignment_1\ada_portfolioassignment_1\binarysearchtree.cpp(110): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\oliver\code\repos\personal\ada_portfolioassignment_1\ada_portfolioassignment_1\binarysearchtree.cpp(111): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  WindowsTest_1.vcxproj -> C:\Users\Oliver\Code\repos\Personal\WindowsTest_1\Debug\WindowsTest_1.exe

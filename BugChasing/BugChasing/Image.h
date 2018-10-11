@@ -15,6 +15,13 @@ enum tiles {
 	eEmpty
 };
 
+struct node {
+	tiles tileType;
+	double G;
+	double H;
+	double F;
+};
+
 class Image
 {
 public:
@@ -27,11 +34,11 @@ public:
 	std::vector<Position<int>> getSpawns();
 
 	cv::Mat getImage();
-	std::vector<std::vector<tiles>> getMapTiles();
+	std::vector<std::vector<node>> getMapTiles();
 
 private:
 	cv::Mat image;
-	std::unordered_map<tiles, cv::Vec3b> tileColors;
+	std::unordered_map<node, cv::Vec3b> tileColors;
 
 	Position<int> goal;
 	std::vector<Position<int>> spawns;

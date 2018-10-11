@@ -1,0 +1,37 @@
+﻿  ADA_Assignment_3.cpp
+c:\users\oliver\code\repos\personal\ada_assignment_3\ada_assignment_3\avltree.h(159): error C2039: 'max': is not a member of 'std'
+  c:\users\oliver\code\repos\personal\ada_assignment_3\ada_assignment_3\predefined c++ types (compiler internal)(238): note: see declaration of 'std'
+  c:\users\oliver\code\repos\personal\ada_assignment_3\ada_assignment_3\avltree.h(157): note: while compiling class template member function 'size_t AVLTree<int>::height(AVLTreeElement<T> *)'
+          with
+          [
+              T=int
+          ]
+  c:\users\oliver\code\repos\personal\ada_assignment_3\ada_assignment_3\avltree.h(169): note: see reference to function template instantiation 'size_t AVLTree<int>::height(AVLTreeElement<T> *)' being compiled
+          with
+          [
+              T=int
+          ]
+  c:\users\oliver\code\repos\personal\ada_assignment_3\ada_assignment_3\avltree.h(118): note: while compiling class template member function 'void AVLTree<int>::insert(T,AVLTreeElement<T> *)'
+          with
+          [
+              T=int
+          ]
+  c:\users\oliver\code\repos\personal\ada_assignment_3\ada_assignment_3\avltree.h(70): note: see reference to function template instantiation 'void AVLTree<int>::insert(T,AVLTreeElement<T> *)' being compiled
+          with
+          [
+              T=int
+          ]
+  c:\users\oliver\code\repos\personal\ada_assignment_3\ada_assignment_3\avltree.h(68): note: while compiling class template member function 'bool AVLTree<int>::insert(T)'
+          with
+          [
+              T=int
+          ]
+  c:\users\oliver\code\repos\personal\ada_assignment_3\ada_assignment_3\ada_assignment_3.cpp(11): note: see reference to function template instantiation 'bool AVLTree<int>::insert(T)' being compiled
+          with
+          [
+              T=int
+          ]
+  c:\users\oliver\code\repos\personal\ada_assignment_3\ada_assignment_3\ada_assignment_3.cpp(9): note: see reference to class template instantiation 'AVLTree<int>' being compiled
+c:\users\oliver\code\repos\personal\ada_assignment_3\ada_assignment_3\avltree.h(159): error C3861: 'max': identifier not found
+  AVLTree.cpp
+  Generating Code...

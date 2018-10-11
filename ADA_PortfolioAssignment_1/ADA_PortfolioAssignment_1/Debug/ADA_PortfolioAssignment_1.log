@@ -1,0 +1,4 @@
+﻿  ADA_PortfolioAssignment_1.cpp
+c:\users\oliver\code\repos\personal\ada_portfolioassignment_1\ada_portfolioassignment_1\ada_portfolioassignment_1.cpp(95): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\oliver\code\repos\personal\ada_portfolioassignment_1\ada_portfolioassignment_1\ada_portfolioassignment_1.cpp(158): warning C4018: '<': signed/unsigned mismatch
+  ADA_PortfolioAssignment_1.vcxproj -> C:\Users\Oliver\Code\repos\Personal\ADA_PortfolioAssignment_1\Debug\ADA_PortfolioAssignment_1.exe
