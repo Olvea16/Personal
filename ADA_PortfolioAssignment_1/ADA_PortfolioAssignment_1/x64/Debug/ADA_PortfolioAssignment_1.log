@@ -1,3 +1,12 @@
-﻿  ADA_PortfolioAssignment_1.cpp
-c:\users\oliver\code\repos\personal\ada_portfolioassignment_1\ada_portfolioassignment_1\ada_portfolioassignment_1.cpp(100): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+﻿  BinarySearchTree.cpp
+c:\users\oliver\code\repos\personal\ada_portfolioassignment_1\ada_portfolioassignment_1\binarysearchtree.cpp(38): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\oliver\code\repos\personal\ada_portfolioassignment_1\ada_portfolioassignment_1\binarysearchtree.cpp(40): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\oliver\code\repos\personal\ada_portfolioassignment_1\ada_portfolioassignment_1\binarysearchtree.cpp(41): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\oliver\code\repos\personal\ada_portfolioassignment_1\ada_portfolioassignment_1\binarysearchtree.cpp(44): warning C4244: 'argument': conversion from 'double' to 'std::streamsize', possible loss of data
+c:\users\oliver\code\repos\personal\ada_portfolioassignment_1\ada_portfolioassignment_1\binarysearchtree.cpp(63): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\oliver\code\repos\personal\ada_portfolioassignment_1\ada_portfolioassignment_1\binarysearchtree.cpp(146): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\oliver\code\repos\personal\ada_portfolioassignment_1\ada_portfolioassignment_1\binarysearchtree.cpp(147): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\oliver\code\repos\personal\ada_portfolioassignment_1\ada_portfolioassignment_1\binarysearchtree.cpp(157): warning C4244: 'argument': conversion from 'double' to '::size_t', possible loss of data
+c:\users\oliver\code\repos\personal\ada_portfolioassignment_1\ada_portfolioassignment_1\binarysearchtree.cpp(158): warning C4244: 'argument': conversion from 'double' to '::size_t', possible loss of data
+c:\users\oliver\code\repos\personal\ada_portfolioassignment_1\ada_portfolioassignment_1\binarysearchtree.cpp(141): warning C4715: 'BinarySearchTree::print': not all control paths return a value
   ADA_PortfolioAssignment_1.vcxproj -> C:\Users\Oliver\Code\repos\Personal\ADA_PortfolioAssignment_1\x64\Debug\ADA_PortfolioAssignment_1.exe

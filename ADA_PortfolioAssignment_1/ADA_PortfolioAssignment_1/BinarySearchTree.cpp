@@ -75,15 +75,15 @@ void BinarySearchTree::makeEmpty()
 	_size = 0;
 }
 
+// This can, of course, be calculated directly from the amount of elements in the tree, but doing anything recursively is always more fun.
 int BinarySearchTree::calculateInternalPathLength(pTreeElement element, int height)
 {
+	int result = height;
 	if (element->isFull() && (element->left->isFull() || element->right->isFull())) {
-		int result = 0;
 		if (element->left->isFull()) result += calculateInternalPathLength(element->left, height + 1);
 		if (element->right->isFull()) result += calculateInternalPathLength(element->right, height + 1);
-		return result;
 	}
-	return height;
+	return result;
 }
 
 std::vector<int> BinarySearchTree::asVector(pTreeElement element, eTraversals traversal)
