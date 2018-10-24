@@ -32,25 +32,27 @@ std::vector<Position<int>> Image::getSpawns()
 	return spawns;
 }
 
-std::vector<std::vector<tiles>> Image::getMapTiles()
+std::vector<std::vector<node>> Image::getMapTiles()
 {
-	std::vector<std::vector<tiles>> map;
+	std::vector<std::vector<node>> map;
 
 	size_t width = image.cols;
 	size_t height = image.rows;
 
 	for (int y = 0; y < height; y++) {
-		std::vector<tiles> row;
+		std::vector<node> row;
 		for (int x = 0; x < width; x++) {
-			tiles tile = eEmpty;
+			node n;
+			tiles* pTile = &(n.tileType);
+			*pTile = eEmpty;
 			cv::Vec3b pointColor = image.at<cv::Vec3b>(cv::Point(x, y));
 			if (pointColor == goalColor) {
-				tile = eGoal;
+				*pTile = eGoal;
 				goal = Position<int>(x, y);
 			}
-			if (pointColor == obstacleColor) tile = eObstacle;
+			if (pointColor == obstacleColor) *pTile = eObstacle;
 			if (pointColor == spawnColor) spawns.push_back(Position<int>(x, y));
-			row.push_back(tile);
+			row.push_back(n);
 		}
 		map.push_back(row);
 	}

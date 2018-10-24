@@ -18,7 +18,7 @@ public:
 private:
 	Position<int> goal;
 	std::vector<Position<int>> spawns;
-	std::vector<std::vector<tiles>> map;
+	std::vector<std::vector<node>> map;
 	bool loaded = false;
 };
 

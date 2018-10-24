@@ -38,7 +38,7 @@ public:
 
 private:
 	cv::Mat image;
-	std::unordered_map<node, cv::Vec3b> tileColors;
+	//std::unordered_map<node, cv::Vec3b> tileColors;
 
 	Position<int> goal;
 	std::vector<Position<int>> spawns;

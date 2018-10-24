@@ -34,7 +34,7 @@ std::vector<std::vector<tiles>> Map::getSurroundingTiles(Position<int> pos)
 			else {
 				for (int x = pos.x - 1; x < pos.x + 2; x++) {
 					if (x < 0 || x >= width) row.push_back(eObstacle);
-					else row.push_back(map[y][x]);
+					else row.push_back(map[y][x].tileType);
 				}
 			}
 			result.push_back(row);
