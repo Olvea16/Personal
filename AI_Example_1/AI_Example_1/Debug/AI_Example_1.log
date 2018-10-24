@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\olive\code\repos\ai_example_1\ai_example_1\source.cpp(43): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\olive\code\repos\ai_example_1\ai_example_1\source.cpp(46): warning C4305: 'initializing': truncation from 'double' to 'float'
+  AI_Example_1.vcxproj -> C:\Users\olive\Code\repos\AI_Example_1\Debug\AI_Example_1.exe
