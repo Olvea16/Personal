@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OliverVisionTest", "OliverVisionTest\OliverVisionTest.vcxproj", "{D6064213-9A79-4525-84ED-52B00DE69C84}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OliverVision", "..\OliverVision\OliverVision\OliverVision.vcxproj", "{EF3239B7-D115-49D7-BFF1-E98E8419F2D6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OliverVision", "..\OV\OliverVision\OliverVision.vcxproj", "{EF3239B7-D115-49D7-BFF1-E98E8419F2D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
