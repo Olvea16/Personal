@@ -25,7 +25,7 @@ template <typename T>
 class Point
 {
 private:
-	T X = 0, Y = 0;
+	T X, Y;
 
 public:
 	Point() {}
@@ -104,6 +104,13 @@ public:
 
 	PolarPoint asPolar() {
 		return PolarPoint(sqrt(X*X+Y*Y), atan2((double)Y, (double)X));
+	}
+
+	void rotate(double angle) {
+		T x, y;
+		x = sin(angle) * Y + cos(angle) * X;
+		y = cos(angle) * Y - sin(angle) * X;
+		X = x, Y = y;
 	}
 
 	/*cv::Point getCVPoint() {

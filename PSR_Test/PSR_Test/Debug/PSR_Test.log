@@ -1,5 +1,2 @@
-﻿  Point.cpp
-c:\users\oliver\code\repos\personal\psr_test\psr_test\point.cpp(17): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
-  Source.cpp
-  Generating Code...
-  PSR_Test.vcxproj -> c:\Users\Oliver\Code\repos\Personal\PSR_Test\Debug\PSR_Test.exe
+﻿  Source.cpp
+  PSR_Test.vcxproj -> C:\Users\Oliver\Code\repos\Personal\PSR_Test\Debug\PSR_Test.exe
