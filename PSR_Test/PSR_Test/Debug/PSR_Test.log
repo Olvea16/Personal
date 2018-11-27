@@ -1,2 +1,37 @@
-﻿  Source.cpp
-  PSR_Test.vcxproj -> C:\Users\Oliver\Code\repos\Personal\PSR_Test\Debug\PSR_Test.exe
+﻿  Edge.cpp
+c:\users\olive\code\gitrepositories\personal\psr_test\psr_test\point.h(120): error C2027: use of undefined type 'Line'
+  c:\users\olive\code\gitrepositories\personal\psr_test\psr_test\point.h(13): note: see declaration of 'Line'
+  c:\users\olive\code\gitrepositories\personal\psr_test\psr_test\point.h(120): note: see reference to class template instantiation 'Point<T>' being compiled
+c:\users\olive\code\gitrepositories\personal\psr_test\psr_test\point.h(94): error C2039: 'a': is not a member of 'Line'
+  c:\users\olive\code\gitrepositories\personal\psr_test\psr_test\point.h(13): note: see declaration of 'Line'
+c:\users\olive\code\gitrepositories\personal\psr_test\psr_test\point.h(99): error C2039: 'd': is not a member of 'Line'
+  c:\users\olive\code\gitrepositories\personal\psr_test\psr_test\point.h(13): note: see declaration of 'Line'
+c:\users\olive\code\gitrepositories\personal\psr_test\psr_test\edge.cpp(10): error C2679: binary '=': no operator found which takes a right-hand operand of type 'Point<double> *' (or there is no acceptable conversion)
+  c:\users\olive\code\gitrepositories\personal\psr_test\psr_test\point.h(120): note: could be 'Point<double> &Point<double>::operator =(const Point<double> &)'
+  c:\users\olive\code\gitrepositories\personal\psr_test\psr_test\edge.cpp(10): note: while trying to match the argument list '(Point<double>, Point<double> *)'
+c:\users\olive\code\gitrepositories\personal\psr_test\psr_test\edge.cpp(11): error C2679: binary '=': no operator found which takes a right-hand operand of type 'Point<double> *' (or there is no acceptable conversion)
+  c:\users\olive\code\gitrepositories\personal\psr_test\psr_test\point.h(120): note: could be 'Point<double> &Point<double>::operator =(const Point<double> &)'
+  c:\users\olive\code\gitrepositories\personal\psr_test\psr_test\edge.cpp(11): note: while trying to match the argument list '(Point<double>, Point<double> *)'
+c:\users\olive\code\gitrepositories\personal\psr_test\psr_test\edge.cpp(29): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Point.cpp
+c:\users\olive\code\gitrepositories\personal\psr_test\psr_test\edge.h(23): error C2676: binary '+': 'Point<double>' does not define this operator or a conversion to a type acceptable to the predefined operator
+c:\users\olive\code\gitrepositories\personal\psr_test\psr_test\edge.h(23): error C2088: '+': illegal for class
+c:\users\olive\code\gitrepositories\personal\psr_test\psr_test\edge.h(27): error C2676: binary '+=': 'Point<double>' does not define this operator or a conversion to a type acceptable to the predefined operator
+c:\users\olive\code\gitrepositories\personal\psr_test\psr_test\edge.h(28): error C2676: binary '+=': 'Point<double>' does not define this operator or a conversion to a type acceptable to the predefined operator
+c:\users\olive\code\gitrepositories\personal\psr_test\psr_test\edge.h(32): error C2676: binary '*=': 'Point<double>' does not define this operator or a conversion to a type acceptable to the predefined operator
+c:\users\olive\code\gitrepositories\personal\psr_test\psr_test\edge.h(33): error C2676: binary '*=': 'Point<double>' does not define this operator or a conversion to a type acceptable to the predefined operator
+c:\users\olive\code\gitrepositories\personal\psr_test\psr_test\point.cpp(17): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+  Source.cpp
+c:\users\olive\code\gitrepositories\personal\psr_test\psr_test\edge.h(23): error C2676: binary '+': 'Point<double>' does not define this operator or a conversion to a type acceptable to the predefined operator
+c:\users\olive\code\gitrepositories\personal\psr_test\psr_test\edge.h(23): error C2088: '+': illegal for class
+c:\users\olive\code\gitrepositories\personal\psr_test\psr_test\edge.h(27): error C2676: binary '+=': 'Point<double>' does not define this operator or a conversion to a type acceptable to the predefined operator
+c:\users\olive\code\gitrepositories\personal\psr_test\psr_test\edge.h(28): error C2676: binary '+=': 'Point<double>' does not define this operator or a conversion to a type acceptable to the predefined operator
+c:\users\olive\code\gitrepositories\personal\psr_test\psr_test\edge.h(32): error C2676: binary '*=': 'Point<double>' does not define this operator or a conversion to a type acceptable to the predefined operator
+c:\users\olive\code\gitrepositories\personal\psr_test\psr_test\edge.h(33): error C2676: binary '*=': 'Point<double>' does not define this operator or a conversion to a type acceptable to the predefined operator
+c:\users\olive\code\gitrepositories\personal\psr_test\psr_test\source.cpp(6): warning C4005: 'M_PI': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\corecrt_math_defines.h(22): note: see previous definition of 'M_PI'
+  Generating Code...
