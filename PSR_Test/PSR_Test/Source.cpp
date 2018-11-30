@@ -126,13 +126,6 @@ transformation ICP(std::vector<Point> cloudA, std::vector<Point> cloudB, transfo
 	Point translation = Point(0,0) - min;
 	Point scale = Point(abs(max.x() - min.x()), abs(max.y() - min.y()));
 
-	//for (std::vector<Point>& c : clouds) {
-	//	for (Point& p : c) {
-	//		p += translation;
-	//		p.x() /= scale.x();
-	//		p.y() /= scale.y();
-	//	}
-	//}
 	for (Point& p : cloudA) {
 		p += translation;
 		p.x() /= scale.x();
