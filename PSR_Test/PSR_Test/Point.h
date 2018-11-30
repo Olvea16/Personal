@@ -1,11 +1,13 @@
 #pragma once
 
+#include <opencv2\opencv.hpp>
+
 #include <vector>
 #include <math.h>
 
 #define ORIGIN (Point(0,0))
-#define MAX(a,b) ((a) < (b) ? (a) : (b))
-#define MIN(a,b) ((a) > (b) ? (a) : (b))
+#define MAX(a,b) ((a) > (b) ? (a) : (b))
+#define MIN(a,b) ((a) < (b) ? (a) : (b))
 
 class Point;
 
@@ -93,14 +95,18 @@ public:
 		return PolarPoint(sqrt(X*X+Y*Y), atan2((double)Y, (double)X));
 	}
 
-	void rotate(double angle) {
+	Point rotate(double angle) {
 		double x, y;
 		x = sin(angle) * Y + cos(angle) * X;
 		y = cos(angle) * Y - sin(angle) * X;
-		X = x, Y = y;
+		return Point(x, y);
 	}
 
-	/*cv::Point getCVPoint() {
+	cv::Point getCVPoint() {
 		return cv::Point(X,Y);
-	}*/
+	}
+
+	cv::Point getCVPoint(double x, double y) {
+		return cv::Point(X * x, Y * y);
+	}
 };

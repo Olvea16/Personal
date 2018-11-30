@@ -1,7 +1,11 @@
 ﻿  Source.cpp
-c:\users\olive\code\gitrepositories\personal\psr_test\psr_test\point.h(7): warning C4005: 'MAX': macro redefinition
-  c:\users\olive\code\libraries\include\opencv2\core\cvdef.h(341): note: see previous definition of 'MAX'
-c:\users\olive\code\gitrepositories\personal\psr_test\psr_test\point.h(8): warning C4005: 'MIN': macro redefinition
-  c:\users\olive\code\libraries\include\opencv2\core\cvdef.h(337): note: see previous definition of 'MIN'
-c:\users\olive\code\gitrepositories\personal\psr_test\psr_test\source.cpp(29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  PSR_Test.vcxproj -> C:\Users\olive\Code\GitRepositories\Personal\PSR_Test\x64\Debug\PSR_Test.exe
+c:\users\oliver\code\repos\personal\psr_test\psr_test\point.h(9): warning C4005: 'MAX': macro redefinition
+  c:\users\oliver\code\libraries\include\opencv2\core\cvdef.h(341): note: see previous definition of 'MAX'
+c:\users\oliver\code\repos\personal\psr_test\psr_test\point.h(10): warning C4005: 'MIN': macro redefinition
+  c:\users\oliver\code\libraries\include\opencv2\core\cvdef.h(337): note: see previous definition of 'MIN'
+c:\users\oliver\code\repos\personal\psr_test\psr_test\point.h(106): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\oliver\code\repos\personal\psr_test\psr_test\point.h(110): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\oliver\code\repos\personal\psr_test\psr_test\source.cpp(31): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\oliver\code\repos\personal\psr_test\psr_test\source.cpp(59): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\oliver\code\repos\personal\psr_test\psr_test\source.cpp(140): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  PSR_Test.vcxproj -> C:\Users\Oliver\Code\repos\Personal\PSR_Test\x64\Debug\PSR_Test.exe

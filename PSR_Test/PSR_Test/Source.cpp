@@ -20,14 +20,16 @@ struct sNearestPoint {
 
 transformation ICP(std::vector<Point> cloudA, std::vector<Point> cloudB, transformation guess = transformation{Point(0,0),0}) {
 	transformation T = guess;
+	std::vector<std::vector<Point>> clouds;
 
 	for (Point& p : cloudA) {
-		p.rotate(T.angle);
+		p = p.rotate(T.angle);
 		p += T.p;
 	}
+	clouds.push_back(cloudA);
 
 	int nA = cloudA.size(), nB = cloudB.size();
-	int N = 10;
+	int N = 100;
 	for (int i = 0; i < N; i++) {
 		Point centroidA = Point(0, 0), centroidB = Point(0, 0);
 		std::vector<sNearestPoint> nPs;
@@ -54,6 +56,7 @@ transformation ICP(std::vector<Point> cloudA, std::vector<Point> cloudB, transfo
 
 		cv::Mat H(2, 2, CV_64F);
 		H = 0;
+		int N = MIN(cloudA.size(), cloudB.size());
 		for (int i = 0; i < N; i++) {
 			Point pA = cloudA[i] - centroidA, pB = cloudB[i] - centroidB;
 			double pa[2] = { pA.x(), pA.y() };
@@ -67,29 +70,65 @@ transformation ICP(std::vector<Point> cloudA, std::vector<Point> cloudB, transfo
 
 		cv::SVD svd;
 		svd(H);
-		for (cv::MatIterator_<double> i = H.begin<double>(); i != H.end<double>(); i++) {
-			std::cout << *i << std::endl;
-		}
-		std::cout << std::endl;
 		cv::Mat u = svd.u;
-		for (cv::MatIterator_<double> i = u.begin<double>(); i != u.end<double>(); i++) {
-			std::cout << *i << std::endl;
-		}
-		std::cout << std::endl;
 		cv::Mat vt = svd.vt;
-		for (cv::MatIterator_<double> i = vt.begin<double>(); i != vt.end<double>(); i++) {
-			std::cout << *i << std::endl;
-		}
 		cv::Mat R;
-		std::cout << std::endl;
 		cv::gemm(u, vt, 1, vt, 0, R);
-		for (cv::MatIterator_<double> i = R.begin<double>(); i != R.end<double>(); i++) {
-			std::cout << *i << std::endl;
-		}
 
 		double a = acos(R.at<double>(0, 0));
+		Point cAR = centroidA.rotate(a);
+		Point cBR = centroidB.rotate(a);
+		Point translation = centroidB - cAR;
 
-		Point translation();
+		T.angle += a;
+		T.p = T.p.rotate(a);
+		T.p += translation;
+
+		for (Point& p : cloudA) {
+			p = p.rotate(a);
+			p += translation;
+		}
+		
+		clouds.push_back(cloudA);
+	}
+
+	Point min(0,0), max(0,0);
+
+	for (std::vector<Point> c : clouds) {
+		for (Point p : c) {
+			min.x() = MIN(p.x(), min.x());
+			min.y() = MIN(p.y(), min.y());
+			max.x() = MAX(p.x(), max.x());
+			max.y() = MAX(p.y(), max.y());
+		}
+	}
+
+	Point translation = Point(0,0) - min;
+	Point scale = Point(abs(max.x() - min.x()), abs(max.y() - min.y()));
+
+	for (std::vector<Point>& c : clouds) {
+		for (Point& p : c) {
+			p += translation;
+			p.x() /= scale.x();
+			p.y() /= scale.y();
+		}
+	}
+
+	for (Point& p : cloudB) {
+		p += translation;
+		p.x() /= scale.x();
+		p.y() /= scale.y();
+	}
+
+	int width = 1720, height = 980, r = 3;
+	cv::Vec3b colorA = cv::Vec3b(120, 40, 0), colorB = cv::Vec3b(0, 40, 120);
+
+	for (std::vector<Point>& c : clouds) {
+		cv::Mat img(cv::Size(width, height), CV_8UC3);
+		for (Point p : cloudB) cv::circle(img, p.getCVPoint(width, height), r, colorA, -1);
+		for (Point& p : c)  cv::circle(img, p.getCVPoint(width, height), r, colorB, -1);
+		cv::imshow("Image", img);
+		cv::waitKey();
 	}
 
 	return T;
@@ -97,17 +136,18 @@ transformation ICP(std::vector<Point> cloudA, std::vector<Point> cloudB, transfo
 
 int main() {
 	std::vector<Point> A, B;
+	
+	srand(time(NULL));
 
 	for (int i = 0; i < 10; i++) {
-		A.push_back(Point(i, 0));
-		B.push_back(Point(i + 1, 1));
+		A.push_back(Point(rand() % 10, rand() % 10));
 	}
 
 	transformation t0;
 	t0.p = Point(1, 1);
-	t0.angle = 1.11111;
+	t0.angle = (rand() % 7000) / 1000.0;
 
-	transformation T = ICP(A, B, t0);
+	transformation T = ICP(A, A, t0);
 
 	return 0;
 }
