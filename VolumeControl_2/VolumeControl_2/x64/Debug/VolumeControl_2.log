@@ -1,1 +1,11 @@
-﻿
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (VolumeControl_2.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly.
+  main.cpp
+  MIDIIn.cpp
+  SerialIn.cpp
+  VolumeControl_2.cpp
+c:\users\olive\code\gitrepositories\personal\volumecontrol_2\volumecontrol_2\iconmanager.h(20): warning C4091: 'static ': ignored on left of 'IconManager' when no variable is declared (compiling source file SerialIn.cpp)
+c:\users\olive\code\gitrepositories\personal\volumecontrol_2\volumecontrol_2\midiin.h(11): fatal error C1083: Cannot open include file: 'qslider.h': No such file or directory (compiling source file MIDIIn.cpp)
+c:\users\olive\code\gitrepositories\personal\volumecontrol_2\volumecontrol_2\serialin.h(17): fatal error C1083: Cannot open include file: 'qslider.h': No such file or directory (compiling source file SerialIn.cpp)
+c:\users\olive\code\gitrepositories\personal\volumecontrol_2\volumecontrol_2\volumecontrol_2.h(7): fatal error C1083: Cannot open include file: 'ui_VolumeControl_2.h': No such file or directory (compiling source file VolumeControl_2.cpp)
+c:\users\olive\code\gitrepositories\personal\volumecontrol_2\volumecontrol_2\volumecontrol_2.h(7): fatal error C1083: Cannot open include file: 'ui_VolumeControl_2.h': No such file or directory (compiling source file main.cpp)

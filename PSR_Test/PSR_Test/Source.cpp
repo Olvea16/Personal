@@ -5,6 +5,7 @@
 #include <opencv2/opencv.hpp>
 
 #include "Point.h"
+#include "Randfloat.h"
 
 #define M_PI 3.1415927
 
@@ -139,7 +140,7 @@ transformation ICP(std::vector<Point> cloudA, std::vector<Point> cloudB, transfo
 	}
 
 	int width = 1720, height = 980, r = 3;
-	cv::Vec3b colorCloud = cv::Vec3b(120, 40, 0), colorActiveTarget = cv::Vec3b(0, 40, 120), colorPassiveTarget = colorActiveTarget * 0.5, colorLine = cv::Vec3b(60, 60, 60), colorCentroidA = cv::Vec3b(255,0,0), colorCentroidB = cv::Vec3b(0,0,255);
+	cv::Vec3b colorCloud = cv::Vec3b(120, 40, 0), colorActiveTarget = cv::Vec3b(0, 40, 240), colorPassiveTarget = colorActiveTarget * 0.5, colorLine = cv::Vec3b(60, 60, 60), colorCentroidA = cv::Vec3b(255,0,0), colorCentroidB = cv::Vec3b(0,0,255);
 
 	for (IterationData d : data) {
 		cv::Mat img(cv::Size(width, height), CV_8UC3);
@@ -175,19 +176,22 @@ transformation ICP(std::vector<Point> cloudA, std::vector<Point> cloudB, transfo
 }
 
 int main() {
-	std::vector<Point> A, B;
+	std::vector<Point> A;
 	
 	srand(time(NULL));
-
-	for (int i = 0; i < 10; i++) {
-		A.push_back(Point(rand() % 10, rand() % 10));
+	    
+	int N = 100;
+	for (int i = 0; i < N; i++) {
+		A.push_back(Point(RandFloat(), RandFloat()));
 	}
+	std::vector<Point> B = A;
+ 	for (int i = 0; i < N * 0.2; i++) A.erase(A.begin());
 
 	transformation t0;
 	t0.p = Point(1, 1);
 	t0.angle = (rand() % 7000) / 1000.0;
 
-	transformation T = ICP(A, A, t0);
+	transformation T = ICP(A, B, t0);
 
 	return 0;
 }
